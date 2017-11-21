@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+#mainWrapper{
+    background-color: #e3e39a;
+    width: 75%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container{
+    min-height: 400px;
+    width: 100%
+}
+
+#display{
+    margin: 0 auto;
+    background-color: white;
+    /*margin: 25px 50px 25px 50px;*/
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.button{/*#bac7c*/
+    background-color: #8ccece;    
+    height: 100px;
+    width: 100px;    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 2em;    
+}
+
+#bUP{
+    margin: 0 auto;
+}
+
+#lower_buttons > ul {    
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+    position: relative;    
+    display: inline-block;
+    left: 50%;
+}
+
+#lower_buttons li {    
+    position: relative;
+    display: block;
+    float: left;
+    left: -50%;
+}
+
+
+#bDown{
+
+}
+
+#bRight{
+   
+}
+
+#bLeft{
+   
+}
+
+#snakeHead{
+    /*width: 25px;
+    height: 25px;*/
+    background-color: royalblue;    
+    position: absolute; 
+    display: inline-block;
+    z-index: 1000;
+}
+
+.snakeTail{
+    background-color: #81fcd3;
+    position: absolute;
+    display: inline-block;
+}
+
+#fruit_peach{
+    background-image: url("../imgs/p1.jpeg");
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+}

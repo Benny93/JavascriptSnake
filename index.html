@@ -1,0 +1,40 @@
+<!Doctype html>
+<head>
+<meta charset="utf-8">
+    <title>Snake</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id=mainWrapper>
+    Device
+    
+    <div class="container">
+        Monitor
+        <div id="display">
+        
+        </div>
+    </div>
+    <div class="container">
+        Controls<br>
+        Player Score <b id="pScore"></b>
+        
+        <div class="button" id="bUP" onclick="sUP()">^</div>
+        <div id="lower_buttons">
+        
+    
+        
+        <ul>
+            <li><div class="button" id="bLeft" onclick="sLeft()"><</div></li>             <li><div class="button" id="bDown" onclick="sDown()">v</div></li>
+            <li><div class="button" id="bRight" onclick="sRight()">></div></li>
+            </ul>
+        </div>
+        <!--
+        <div class="button" id="bUP" onclick="debug()">#</div>-->
+    </div>
+    </div>
+    
+    <script src="snake/main.js"></script>    
+    <script src="snake/events.js"></script>
+    <script src="snake/ctrl.js"></script>
+</body>
+</html>
